@@ -6,6 +6,7 @@ import { useEffect } from "react";
 
 export default function NavBar() {
   useEffect(() => {
+    // eslint-disable-next-line @typescript-eslint/no-floating-promises
     import("bootstrap/js/dist/collapse");
   });
 
